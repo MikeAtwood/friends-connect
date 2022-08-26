@@ -9,6 +9,7 @@ const ReactionSchema = new Schema(
         reactionBody: {
             type: 'String',
             required: true,
+            match: '/^.{0,280}$/'
             // 280 characters maximum
         },
         username: {
@@ -18,7 +19,7 @@ const ReactionSchema = new Schema(
         createdAt: {
             type: Date,
             default: Date.now,
-            // get
+            get: true
         },
         reactions: []
     }

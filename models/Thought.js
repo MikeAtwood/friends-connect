@@ -5,7 +5,7 @@ const ThoughtSchema = new Schema(
         thoughtText: {
             type: String,
             required: true,
-            // must be between 1 and 380 characters
+            match: '/^.{1,380}$/',
         },
         createdAt: {
             type: Date,
