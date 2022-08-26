@@ -21,11 +21,12 @@ const ReactionSchema = new Schema(
         createdAt: {
             type: Date,
             default: Date.now,
-            get: true
+            get: createdAtVal => dateFormat(createdAtVal)
         }
     },
     {
         toJSON: {
+            virtuals: true,
             getters: true
         },
         id: false
