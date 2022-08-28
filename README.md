@@ -14,7 +14,7 @@ To download, clone the SSH into your text editor. To view the database, run `npm
 
 ## Demo
 
-![Untitled_ Jul 20, 2022 7_33 PM](https://user-images.githubusercontent.com/103971335/180105425-cd124fa1-8017-45a1-9827-f7893e720392.gif)
+![Untitled_ Jul 20, 2022 7_33 PM](https://drive.google.com/file/d/1KIHNkNoayTzFQenYmc9Gdq_CuTbilOHy/view)
 
 ## Usage
 This application will allow Users to create `Thoughts` and interact with eachtoher using `Reactions`, and adding eachother as `friends`.
